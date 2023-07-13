@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #012264;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.desafio{
+  margin: 0 auto;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
 }

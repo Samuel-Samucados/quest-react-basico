@@ -1,0 +1,20 @@
+.alert{
+	margin: 10px;
+	background: #fced1f;
+    border-style: 5px solid #fff;
+	color: #fff;
+    border: solid #fff 3px;
+    border-radius: 20px;
+	height: 60px;
+	width: 300px;
+	font: 20px arial,sans-serif;
+	text-shadow: none;
+    transition: 0.3s ease-in-out;
+}
+ 
+ .alert:hover {
+    font-weight: bold;
+    border: solid #fced1f 3px;
+    background: black ;
+    color: #fced1f;
+ }
