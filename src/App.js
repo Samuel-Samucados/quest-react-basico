@@ -6,15 +6,15 @@ import Button from './components/button/button';
 
     class App extends React.Component {
       state = {
-        textColor: 'white',
+        textColor: 'yellow',
         uppercase: false,
       };
     
-      Cor = (color) => {
+      Change = (color) => {
         this.setState({ textColor: color });
       };
     
-      Maiusculas = () => {
+      Bigletters = () => {
         this.setState((prevState) => ({
           uppercase: !prevState.uppercase
         }));
@@ -35,8 +35,8 @@ import Button from './components/button/button';
             <Paragraph color={this.state.textColor} uppercase={this.state.uppercase} />
             <br />
             <Button
-              TrocarCor={this.Cor}
-              Uppercase={this.Maiusculas}
+              TrocarCor={this.Change}
+              Uppercase={this.Bigletters}
               Resetar={this.Reset}
             />
             <hr />

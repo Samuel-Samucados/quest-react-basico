@@ -2,12 +2,14 @@
 	margin: 10px;
 	background: #fced1f;
     border-style: 5px solid #fff;
-	color: #fff;
-    border: solid #fff 3px;
+	color: black;
+    border: solid black 3px;
     border-radius: 20px;
 	height: 60px;
 	width: 300px;
-	font: 20px arial,sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-size: 20px;
+    font-weight: bold;
 	text-shadow: none;
     transition: 0.3s ease-in-out;
 }
