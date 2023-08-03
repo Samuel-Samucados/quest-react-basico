@@ -43,13 +43,5 @@
   "keywords": [
     "javascript",
     "npm"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Samuel-Samucados/quest-react-basico.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Samuel-Samucados/quest-react-basico/issues"
-  },
-  "homepage": "https://github.com/Samuel-Samucados/quest-react-basico#readme"
+  ]
 }
